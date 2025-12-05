@@ -23,7 +23,11 @@
             <artifactId>automation-framework-core</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <!-- No version here if parent pom has <dependencyManagement> for this -->
+        </dependency>
         <!-- TestNG for tests -->
         <dependency>
             <groupId>org.testng</groupId>
